@@ -1,0 +1,11 @@
+*.xls
+*.xlsx
+*.xlsx#
+*.xls:Zone.Identifier
+*.xlsx:Zone.identifier
+
+node_modules*
+package-lock.json
+yarn.lock
+main_copy.js
+test.js
