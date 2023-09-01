@@ -116,7 +116,7 @@ function mountObject(array) {
                     object[actual] = ''
                     return;
                 }
-                if (actual === 'codigo') {
+                if (actual === 'codigo' && !keyPattern.test(element[index + 2])) {
                     object[actual] = next;
                     actual = 'nome'
                     const name = element[index + 2];
