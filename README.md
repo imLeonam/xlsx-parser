@@ -100,3 +100,9 @@ yarn start
 # Estrutura:
 "chave: valor"
 ```
+
+## Observação:
+
+### Se depois do codigo não ouver um nome sem chave como na foto acima, entre em contato comigo para uma alteração no codigo! <br>
+
+### Ou tente você mesmo, o projeto esta aberto!
