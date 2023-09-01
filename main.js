@@ -182,6 +182,11 @@ async function runJob(directory, workbook) {
 
     console.group('Mounting json structure: ');
     const result = mountObject(newArr);
+    if (!result[1]) {
+        console.log('Failed to Mount json structure.')
+        console.log('Return: ', result);
+        return;
+    }
     console.log('Example return: ', result[1], '\n');
     console.groupEnd();
 

@@ -3,6 +3,7 @@
 *.xlsx#
 *.xls:Zone.Identifier
 *.xlsx:Zone.identifier
+/_outputs/*.json
 
 node_modules*
 package-lock.json
