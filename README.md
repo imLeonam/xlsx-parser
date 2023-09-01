@@ -100,3 +100,4 @@ yarn start
 # Estrutura:
 "chave: valor"
 ```
+### 10. Sempre apague o que não é registro do começo da tabela e duplique o ultimo grupo da tabela, não consegui fazer ele pegar o ultimo sem essa intervenção ainda
