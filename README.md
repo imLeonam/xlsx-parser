@@ -61,6 +61,7 @@ npm install -g yarn
 ```bash
 git clone https://github.com/imLeonam/xlsx-parser.git
 ```
+
 3. Se o gitHub reclamar alguma coisa sobre identificação ou ssh acesse esse site para resolver, mas leia bem antes de rodar os comandos pedidos.
 
 [Site de tutorial para configurar o SSH no GitHub](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/GitHub-SSH-Key-Setup-Config-Ubuntu-Linux)
@@ -89,4 +90,13 @@ ou
 
 ```bash
 yarn start
+```
+
+### 9. Os dados das planilhas que deseja limpar precisam ter um formato parecido com esse:
+
+![exemplo](public/xlsx-parser-ex.png)
+
+```bash
+# Estrutura:
+"chave: valor"
 ```
