@@ -36,23 +36,6 @@ Antes de começar a usar o Ubuntu no WSL, é uma boa prática atualizar os pacot
 sudo apt update
 sudo apt upgrade
 ```
-
-### 6. Instalar o Node.js e o npm:
-
-1. Abra o terminal do Ubuntu.
-2. Execute os seguintes comandos para instalar o Node.js e o npm:
-
-```bash
-sudo apt install nodejs
-sudo apt install npm
-```
-
-3. Se preferir pode usar o yarn
-
-```bash
-npm install -g yarn
-```
-
 ### 7. Clone o projeto:
 
 1. Abra o terminal do Ubuntu.
@@ -65,6 +48,29 @@ git clone https://github.com/imLeonam/xlsx-parser.git
 3. Se o gitHub reclamar alguma coisa sobre identificação ou ssh acesse esse site para resolver, mas leia bem antes de rodar os comandos pedidos.
 
 [Site de tutorial para configurar o SSH no GitHub](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/GitHub-SSH-Key-Setup-Config-Ubuntu-Linux)
+
+### 6. Instalar o Node.js e o npm:
+
+1. Abra o terminal do Ubuntu.
+   #### Instalção pelo setup.sh
+   1. Execute os seguintes comandos separadamente.
+   ```bash
+   cd xlsx-parser
+   bash setup.sh
+   ```
+   #### Instalação manual
+  1. Execute os seguintes comandos para instalar o Node.js e o npm:
+
+  ```bash
+  sudo apt install nodejs
+  sudo apt install npm
+  ```
+
+  3. Se preferir pode usar o yarn
+  
+  ```bash
+  npm install -g yarn
+  ```
 
 ### 8. Iniciar o projeto
 
